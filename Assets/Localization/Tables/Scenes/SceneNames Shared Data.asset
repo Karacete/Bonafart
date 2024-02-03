@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SceneNames Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: SceneNames
+  m_TableCollectionNameGuidString: f284333c1d24cd9469e7c09245177b9a
+  m_Entries:
+  - m_Id: 1351523057664
+    m_Key: Heaven1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1541151735808
+    m_Key: Heaven2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1576752988160
+    m_Key: Heaven3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601423884288
+    m_Key: Heaven4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1627676033024
+    m_Key: Heaven5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1668553719808
+    m_Key: Earth1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1701885853696
+    m_Key: Earth2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1726233788416
+    m_Key: Earth3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1757779148800
+    m_Key: Earth4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1782525542400
+    m_Key: Earth5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807628451840
+    m_Key: Hell1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838578221056
+    m_Key: Hell2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1860090806272
+    m_Key: Hell3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1878042427392
+    m_Key: Hell4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1896333787136
+    m_Key: Hell5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4948277149696
+    m_Key: Final
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2911541069597900839
+  references:
+    version: 2
+    RefIds:
+    - rid: 2911541069597900839
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1704734303399

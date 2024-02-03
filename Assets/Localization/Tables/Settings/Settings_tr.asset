@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Settings_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: b01c1e69f7895c742b52fc2ab1dc82d9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12877381632
+    m_Localized: "M\xFCzik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79805890560
+    m_Localized: Kalite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 363223400448
+    m_Localized: "Y\xFCksek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 458270523392
+    m_Localized: "D\xFC\u015F\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 521071837184
+    m_Localized: Dil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582489030656
+    m_Localized: "T\xFCrk\xE7e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 679176126464
+    m_Localized: "\u0130ngilizce"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1185140114800640
+    m_Localized: "EM\u0130N M\u0130S\u0130N?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1185349574148096
+    m_Localized: EVET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1185426988417024
+    m_Localized: HAYIR
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

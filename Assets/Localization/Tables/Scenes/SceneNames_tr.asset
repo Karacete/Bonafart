@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SceneNames_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: f284333c1d24cd9469e7c09245177b9a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1351523057664
+    m_Localized: CENNET - 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1541151735808
+    m_Localized: CENNET - 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1576752988160
+    m_Localized: CENNET - 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601423884288
+    m_Localized: CENNET - 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1627676033024
+    m_Localized: "CENNETTEN KA\xC7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1668553719808
+    m_Localized: "D\xDCNYA - 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1701885853696
+    m_Localized: "D\xDCNYA - 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1726233788416
+    m_Localized: "D\xDCNYA - 3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1757779148800
+    m_Localized: "D\xDCNYA - 4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1782525542400
+    m_Localized: "SADECE KO\u015E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1807628451840
+    m_Localized: CEHENNEM - 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1838578221056
+    m_Localized: CEHENNEM - 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1860090806272
+    m_Localized: CEHENNEM - 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1878042427392
+    m_Localized: CEHENNEM - 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1896333787136
+    m_Localized: CENNET - xydlsjfk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4948277149696
+    m_Localized: "SON \xC7IRPINI\u015ELAR"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

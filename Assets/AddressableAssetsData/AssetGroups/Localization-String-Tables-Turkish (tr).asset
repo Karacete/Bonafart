@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Turkish (tr)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Turkish (tr)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fb200f288b33ad545ac71f21e6674de7
+  m_SerializeEntries:
+  - m_GUID: c74a468977868bf45aced8d2b385ef05
+    m_Address: Menu_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b7beb8385a30b84ca8ffa80b2d5ef4f
+    m_Address: Settings_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6a19fba78e70d84c9c77718a18c3cec
+    m_Address: SceneNames_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 1cfa255f2797bc646aa1dd89649e91d6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f6d5671971bb6c44781531c57bd28960, type: 2}
+    - {fileID: 11400000, guid: 3e072d9c4da2e844ea917fcfac7b5a4e, type: 2}
