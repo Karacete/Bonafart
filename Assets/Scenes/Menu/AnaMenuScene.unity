@@ -629,9 +629,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LocalizationScript, Assembly-CSharp
-        m_MethodName: Dil
+      - m_Target: {fileID: 1492559928}
+        m_TargetAssemblyTypeName: AnaMenuScript, Assembly-CSharp
+        m_MethodName: CikisYap
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RedRo
+  m_text: Bonafart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d2d580160bbaff540ad9a16937c43791, type: 2}
   m_sharedMaterial: {fileID: -5489136422178368384, guid: d2d580160bbaff540ad9a16937c43791, type: 2}

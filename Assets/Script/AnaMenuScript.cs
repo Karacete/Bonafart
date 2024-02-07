@@ -11,7 +11,10 @@ public class AnaMenuScript : MonoBehaviour
     {
         SaveLoadScript.Load();
         if (File.Exists("gamesave.bin") && SaveData.scene > 0)
+        {
             continueButton.SetActive(true);
+        }
+            
         else
             continueButton.SetActive(false);
         script = GameObject.FindWithTag("Load");
@@ -32,5 +35,9 @@ public class AnaMenuScript : MonoBehaviour
     {
         SaveLoadScript.Load();
         script.GetComponent<LoadSceneManagerScript>().Load(SaveData.scene);
+    }
+    public void CikisYap()
+    {
+        Application.Quit();
     }
 }

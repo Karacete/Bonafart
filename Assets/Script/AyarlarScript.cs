@@ -34,6 +34,7 @@ public class AyarlarScript : MonoBehaviour
         }
         else
         {
+            SaveData.scene = 0;
             clearButton.SetActive(false);
             englishButton.SetActive(false);
             turkishButton.SetActive(true);

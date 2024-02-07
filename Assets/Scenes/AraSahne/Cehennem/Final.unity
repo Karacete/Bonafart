@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 737969026}
         m_TargetAssemblyTypeName: DialogScript, Assembly-CSharp
-        m_MethodName: NextScene
+        m_MethodName: AnaMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -604,7 +604,7 @@ Transform:
   m_GameObject: {fileID: 350689060}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.054093074, w: 0.99853593}
-  m_LocalPosition: {x: -464.1876, y: 399, z: 0}
+  m_LocalPosition: {x: -464.1876, y: 606, z: 0}
   m_LocalScale: {x: 35, y: 35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1455,8 +1455,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.002300024, y: 0.00029993057, z: 0}
-    m_Extent: {x: 5.5025997, y: 5.5039, z: 0}
+    m_Center: {x: 0.00069999695, y: 0.00034999847, z: 0}
+    m_Extent: {x: 5.5007, y: 5.49965, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
