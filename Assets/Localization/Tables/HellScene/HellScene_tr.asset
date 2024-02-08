@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HellScene_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 3bc532fe1f4e8614abc948306d75e171, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283187691520
+    m_Localized: "Tanr\u0131 koydu\u011Fu kanuna uyar. Kanun Tanr\u0131'y\u0131 Tanr\u0131
+      yapar. Tanr\u0131 yarat\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 827880980480
+    m_Localized: "Yaratt\u0131\u011F\u0131 kanun yaratt\u0131\u011F\u0131 varl\u0131k
+      taraf\u0131ndan \xE7i\u011Fnenir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1412445323264
+    m_Localized: "Tanr\u0131 asl\u0131nda kendi koydu\u011Funu dolayl\u0131 yoldan
+      kendi bozmu\u015F ve kendini cezaland\u0131rm\u0131\u015F olur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2971480702976
+    m_Localized: "Tanr\u0131 g\xFCn\xFCn sonunda hem kazanan hem kaybeden olur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3451015479296
+    m_Localized: CEHENNEM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3731220152320
+    m_Localized: Lanet olsun!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4065090945024
+    m_Localized: "Bu ne s\u0131cak b\xF6yle?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4532348993536
+    m_Localized: Ben... Cehennemdeyim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4856518361088
+    m_Localized: "Neden oldu\u011Funu bilmiyorum ama bildi\u011Fim bir \u015Fey varsa..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5489409474560
+    m_Localized: "...o da buraya yanl\u0131\u015Fl\u0131kla gidilmedi\u011Fidir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5891655811072
+    m_Localized: "Ben buraya g\xF6nderildim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430879727616
+    m_Localized: "San\u0131r\u0131m cennetten ka\xE7mam\u0131n cezas\u0131n\u0131
+      \xE7ekiyorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7040098189312
+    m_Localized: "Ben kesinlikle buraya d\xFC\u015Fecek b\xFCy\xFCkl\xFCkte bir su\xE7
+      i\u015Flemedim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605326790656
+    m_Localized: "Tanr\u0131 benimle oyun oynuyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7820305842176
+    m_Localized: "Buradan bir an \xF6nce ka\xE7mal\u0131y\u0131m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8519123025920
+    m_Localized: "Sen buraya ait de\u011Filsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9651736100864
+    m_Localized: "Biliyorum, isteyerek gelmedim ama isteyerek gidece\u011Fim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10262355460096
+    m_Localized: "Burada bulunman\u0131n bir bedeli var."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10591134367744
+    m_Localized: "Ceza \xE7ekmeye hi\xE7 niyetim yok."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10942168252416
+    m_Localized: "Kurtulu\u015Fun yok!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11168148963328
+    m_Localized: "\u015EEYTAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11705623855104
+    m_Localized: "Bonafart ka\xE7arken \xF6n\xFCne aniden bir \u0131s\u0131k kayna\u011F\u0131
+      \xE7\u0131kar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12449181679616
+    m_Localized: "Bir kurtulu\u015F \xFCmidiyle..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12644443308032
+    m_Localized: "...cehennemin k\u0131rm\u0131z\u0131s\u0131ndan nasibini almam\u0131\u015F
+      olan bu portal\u0131 and\u0131ran cismin i\xE7ine dalar."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

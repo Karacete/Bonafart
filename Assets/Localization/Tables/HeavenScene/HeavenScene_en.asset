@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HeavenScene_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4d73233b48a7e9b438c4ccac261f1ef4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 216703778816
+    m_Localized: HEAVEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 473747505152
+    m_Localized: I'm finally where I want.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1020391145472
+    m_Localized: Could this be real?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406002872320
+    m_Localized: I tried for years to deserve this place and here it is...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695394836480
+    m_Localized: I AM HERE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2827750293504
+    m_Localized: Was it really that much?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3358371692544
+    m_Localized: I have seen and tasted every taste, every color.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3663675080704
+    m_Localized: But I still have eternity in front of me...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4071889911808
+    m_Localized: I AM BORED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5148383199232
+    m_Localized: My God!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5374070308864
+    m_Localized: I know you hear my voice.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5626252836864
+    m_Localized: I want to return among mortals.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6359182295040
+    m_Localized: What bores you so much that you want to be mortal?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6629857509376
+    m_Localized: Eternity...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7514415251456
+    m_Localized: I cannot send you among mortals.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7918758739968
+    m_Localized: Why?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8230575882240
+    m_Localized: Every soul can only come to life once.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8688883286016
+    m_Localized: I die every day while I am immortal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9556772864000
+    m_Localized: All I want from you is to live for the last time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9975855136768
+    m_Localized: Even those who make laws cannot break them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10302440423424
+    m_Localized: Even I cannot fulfill this request.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10923528765440
+    m_Localized: Looks like I won't get God's help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11402442784768
+    m_Localized: Bonafart, is very upset about this situation but he has to leave.
+      This eternal heavenly life makes him experience hell. He opposes God in the
+      hope of finding a way out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13161122840576
+    m_Localized: AFTER 1.000.000 YEARS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13729820131328
+    m_Localized: Bonafart, finally finds his exit ticket.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14085744574464
+    m_Localized: Taking a bite of the forbidden apple will send him to Earth, among
+      mortals.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15311332786176
+    m_Localized: He takes a bite without hesitation. It's taste is much sweeter than
+      regular apple. Bonafart, feels a little bad after the bite and suddenly faints.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23821802094592
+    m_Localized: GOD
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EarthScene_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d2a20181c858b6d4590a38cbd570422c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 32108265472
+    m_Localized: When Bonafart wakes up from his deep sleep, he finds that he is
+      in a different place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2310068322304
+    m_Localized: Bonafart came to Earth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2582710665216
+    m_Localized: But around when he looks, he cannot find a mortal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3054267875328
+    m_Localized: He sets out with hope of encountering a mortal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3591684046848
+    m_Localized: At the end of the search, he found no trace of mortals. While he
+      is questioning himself where he is, an intense beam of light suddenly moves
+      towards the Earth. God sends his angles to Earth to find Bonafart and take
+      him back to heaven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5857048608768
+    m_Localized: While he is running away from the angels, he suddenly begins to
+      fall. Finally, God stepped in and sent him to hell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34681639485440
+    m_Localized: EARTH
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

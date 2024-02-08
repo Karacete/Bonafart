@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: HeavenScene Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: HeavenScene
+  m_TableCollectionNameGuidString: 4d73233b48a7e9b438c4ccac261f1ef4
+  m_Entries:
+  - m_Id: 216703778816
+    m_Key: 1HeavenText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 473747505152
+    m_Key: 1RedText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1020391145472
+    m_Key: 1RedText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406002872320
+    m_Key: 1RedText3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695394836480
+    m_Key: 1RedText4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2827750293504
+    m_Key: 2RedText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3358371692544
+    m_Key: 2RedText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3663675080704
+    m_Key: 2RedText3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4071889911808
+    m_Key: 2RedText4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5148383199232
+    m_Key: 2RedText5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5374070308864
+    m_Key: 2RedText6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5626252836864
+    m_Key: 2RedText7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6359182295040
+    m_Key: 2TanriText8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6629857509376
+    m_Key: 2RedText9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7514415251456
+    m_Key: 2TanriText10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7918758739968
+    m_Key: 2RedText11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8230575882240
+    m_Key: 2TanriText12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8688883286016
+    m_Key: 2RedText13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9556772864000
+    m_Key: 2RedText14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9975855136768
+    m_Key: 2TanriText15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10302440423424
+    m_Key: 2TanriText16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10923528765440
+    m_Key: 2RedText17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11402442784768
+    m_Key: 2TaleText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13161122840576
+    m_Key: 2TimeText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13729820131328
+    m_Key: 3TaleText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14085744574464
+    m_Key: 3TaleText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15311332786176
+    m_Key: 3TaleText3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23821802094592
+    m_Key: God
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3522274681979666432
+  references:
+    version: 2
+    RefIds:
+    - rid: 3522274681979666432
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1707336368411

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HellScene_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3bc532fe1f4e8614abc948306d75e171, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283187691520
+    m_Localized: God obeys the he made. Law makes God God. God creates.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 827880980480
+    m_Localized: The law he created is violated by the being he created.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1412445323264
+    m_Localized: In fact, God indirectly violates what he has set and punishes himself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2971480702976
+    m_Localized: God is winner and a loser at the end of the day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3451015479296
+    m_Localized: HELL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3731220152320
+    m_Localized: Damn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4065090945024
+    m_Localized: This place is so hot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4532348993536
+    m_Localized: I'm... I'm in hell!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4856518361088
+    m_Localized: I don't know why, but if there's one thing I know...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5489409474560
+    m_Localized: ...it's that you don't go here by mistake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5891655811072
+    m_Localized: I was sent here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430879727616
+    m_Localized: I guess I'm paying for my escape from heaven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7040098189312
+    m_Localized: I have definitely not committed a crime big enough to fall here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605326790656
+    m_Localized: God is playing games with me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7820305842176
+    m_Localized: I must escape from here as soon as possible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8519123025920
+    m_Localized: You don't belong here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9651736100864
+    m_Localized: I know, I didn't come willingly but I will return willingly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10262355460096
+    m_Localized: There is a price for being here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10591134367744
+    m_Localized: I have no intention of being punished.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10942168252416
+    m_Localized: You have no salvation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11168148963328
+    m_Localized: DEVIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11705623855104
+    m_Localized: While Bonafart is runing away, a light source suddenly appears in
+      front of him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12449181679616
+    m_Localized: Hoping of salvation...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12644443308032
+    m_Localized: ...he dives into this portal-like object, which has no share of
+      the red of hell.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

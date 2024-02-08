@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: HellScene Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: HellScene
+  m_TableCollectionNameGuidString: 3bc532fe1f4e8614abc948306d75e171
+  m_Entries:
+  - m_Id: 283187691520
+    m_Key: 1TaleText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 827880980480
+    m_Key: 1TaleText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1412445323264
+    m_Key: 1TaleText3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2971480702976
+    m_Key: 1TaleText4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3451015479296
+    m_Key: 2HellText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3731220152320
+    m_Key: 2RedText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4065090945024
+    m_Key: 2RedText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4532348993536
+    m_Key: 2RedText3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4856518361088
+    m_Key: 2RedText4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5489409474560
+    m_Key: 2RedText5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5891655811072
+    m_Key: 2RedText6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430879727616
+    m_Key: 2RedText7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7040098189312
+    m_Key: 2RedText8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605326790656
+    m_Key: 2RedText9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7820305842176
+    m_Key: 2RedText10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8519123025920
+    m_Key: 3DevilText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9651736100864
+    m_Key: 3RedText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10262355460096
+    m_Key: 3DevilText3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10591134367744
+    m_Key: 3RedText4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10942168252416
+    m_Key: 3DevilText5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11168148963328
+    m_Key: Devil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11705623855104
+    m_Key: 4TaleText1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12449181679616
+    m_Key: 4TaleText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12644443308032
+    m_Key: 4TaleText3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3522274681979666438
+  references:
+    version: 2
+    RefIds:
+    - rid: 3522274681979666438
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1707342017840

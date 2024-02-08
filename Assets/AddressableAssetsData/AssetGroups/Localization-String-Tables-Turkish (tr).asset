@@ -38,6 +38,24 @@ MonoBehaviour:
     - Locale-tr
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5da7bdf70a5c64488b72f04e92cc4e5
+    m_Address: HeavenScene_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf5dc12e507b95c4c8f7041b2e1d798d
+    m_Address: EarthScene_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cca10ab63fdfe7b4986dcc3f2163bbb7
+    m_Address: HellScene_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1cfa255f2797bc646aa1dd89649e91d6, type: 2}
   m_SchemaSet:

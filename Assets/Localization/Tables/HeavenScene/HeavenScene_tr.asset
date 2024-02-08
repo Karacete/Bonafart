@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HeavenScene_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 4d73233b48a7e9b438c4ccac261f1ef4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 216703778816
+    m_Localized: CENNET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 473747505152
+    m_Localized: "Sonunda istedi\u011Fim yerdeyim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1020391145472
+    m_Localized: "Bu ger\xE7ek olabilir mi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406002872320
+    m_Localized: "Y\u0131llarca buray\u0131 hak etmek i\xE7in \xE7abalad\u0131m ve
+      i\u015Fte..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695394836480
+    m_Localized: BURADAYIM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2827750293504
+    m_Localized: "Ger\xE7ekten bu kadar m\u0131?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3358371692544
+    m_Localized: "Her zevki, her rengi g\xF6rd\xFCm ve tatt\u0131m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3663675080704
+    m_Localized: "Ama hala \xF6n\xFCmde sonsuzluk var ve ben..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4071889911808
+    m_Localized: SIKILDIM.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5148383199232
+    m_Localized: "Tanr\u0131m!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5374070308864
+    m_Localized: "Sesimi duydu\u011Funu biliyorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5626252836864
+    m_Localized: "Ben \xF6l\xFCml\xFClerin aras\u0131na d\xF6nmek istiyorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6359182295040
+    m_Localized: "\xD6l\xFCml\xFC olmak isteyecek kadr seni s\u0131kan \u015Fey nedir?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6629857509376
+    m_Localized: Sonsuzluk...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7514415251456
+    m_Localized: "Seni \xF6l\xFCml\xFClerin aras\u0131na g\xF6nderemem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7918758739968
+    m_Localized: Sebebi nedir?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8230575882240
+    m_Localized: Her ruh sadece bir kere hayat bulabilir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8688883286016
+    m_Localized: "Ben \xF6l\xFCms\xFCzken her g\xFCn \xF6l\xFCyorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9556772864000
+    m_Localized: "Senden tek iste\u011Fim son kez ya\u015Famak."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9975855136768
+    m_Localized: "Kanunlar\u0131 koyan dahi bozamaz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10302440423424
+    m_Localized: "Bu iste\u011Fini ben bile yerine getiremem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10923528765440
+    m_Localized: "Anla\u015F\u0131lan Tanr\u0131'n\u0131n yard\u0131m\u0131n\u0131
+      alamayaca\u011F\u0131m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11402442784768
+    m_Localized: "Bonafart, bu duruma \xE7ok \xFCz\xFCl\xFCr ama gitmesi \u015Fartt\u0131r.
+      Bu sonsuz cennet hayat\u0131 ona cehennemi ya\u015Fatmaktad\u0131r. Bir \xE7\u0131k\u0131\u015F
+      yolu bulma umuduyla Tanr\u0131'ya kar\u015F\u0131 \xE7\u0131kar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13161122840576
+    m_Localized: 1.000.000 YIL SONRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13729820131328
+    m_Localized: "Bonafart, sonunda \xE7\u0131k\u0131\u015F biletini bulur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14085744574464
+    m_Localized: "Yasak elmadan bir \u0131s\u0131r\u0131k almas\u0131 onu D\xFCnya'ya,
+      \xF6l\xFCml\xFClerin aras\u0131na g\xF6nderecektir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15311332786176
+    m_Localized: "Hi\xE7 teredd\xFCt etmeden bir \u0131s\u0131r\u0131k al\u0131r.
+      Tad\u0131 normal elmadan \xE7ok daha tatl\u0131d\u0131r. Bonafart, \u0131s\u0131r\u0131ktan
+      sonra kendini biraz k\xF6t\xFC hisseder ve bir anda bay\u0131l\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23821802094592
+    m_Localized: TANRI
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

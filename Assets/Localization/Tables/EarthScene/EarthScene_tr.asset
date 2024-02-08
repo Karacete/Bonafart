@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EarthScene_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: d2a20181c858b6d4590a38cbd570422c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 32108265472
+    m_Localized: "Banafart, derin uykusundan uyand\u0131\u011F\u0131nda farkl\u0131
+      bir yerde oldu\u011Funu g\xF6r\xFCr."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2310068322304
+    m_Localized: "Bonafart D\xFCnya'ya gelmi\u015Ftir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2582710665216
+    m_Localized: "Ancak etraf\u0131na bakt\u0131\u011F\u0131nda tek bir \xF6l\xFCml\xFCye
+      rastlayamaz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3054267875328
+    m_Localized: "Bir \xF6l\xFCml\xFCye rastlama umuduyla yola koyulur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3591684046848
+    m_Localized: "Aray\u0131\u015F\u0131n sonunda \xF6l\xFCml\xFClere dair en ufak
+      bir ize rastlamam\u0131\u015Ft\u0131r. Kendi kendine nerede olduklar\u0131n\u0131
+      sorgularken bir anda yo\u011Fun bir \u0131\u015F\u0131k h\xFCzmesi yery\xFCz\xFCne
+      do\u011Fru hareket eder.Tanr\u0131 meleklerini D\xFCnya' ya Bonafart' \u0131
+      bulup cennete geri g\xF6t\xFCrmeleri i\xE7in g\xF6nderir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5857048608768
+    m_Localized: "Meleklerden ka\xE7t\u0131\u011F\u0131 s\u0131rada \naniden d\xFC\u015Fmeye
+      ba\u015Flar. \r\nSonunda Tanr\u0131 devreye girmi\u015F \nonu cehenneme g\xF6ndermi\u015Ftir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34681639485440
+    m_Localized: "D\xDCNYA"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

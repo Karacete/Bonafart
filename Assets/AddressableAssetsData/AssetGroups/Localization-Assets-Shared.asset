@@ -32,6 +32,21 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d73233b48a7e9b438c4ccac261f1ef4
+    m_Address: Assets/Localization/Tables/HeavenScene Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2a20181c858b6d4590a38cbd570422c
+    m_Address: Assets/Localization/Tables/EarthScene/EarthScene Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bc532fe1f4e8614abc948306d75e171
+    m_Address: Assets/Localization/Tables/HellScene/HellScene Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1cfa255f2797bc646aa1dd89649e91d6, type: 2}
   m_SchemaSet:
