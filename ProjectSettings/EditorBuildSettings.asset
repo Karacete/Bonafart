@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/AyarlarScene.unity
     guid: 0a8cecb4f13d8884782885e8332f338e
   - enabled: 1
-    path: Assets/Scenes/AraSahne/Cennet/Giris1.unity
+    path: Assets/Scenes/AraSahne/Cennet/1.unity
     guid: 2114c974f40cedb44a671139b244f783
   - enabled: 1
-    path: Assets/Scenes/AraSahne/Cennet/Giris2.unity
+    path: Assets/Scenes/AraSahne/Cennet/2.unity
     guid: 1105301910e3ead429f980c43b583d77
   - enabled: 1
     path: Assets/Scenes/Chapter1/Level1Scene.unity

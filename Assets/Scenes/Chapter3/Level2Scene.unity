@@ -219,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 790659474751032523, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: bitisPozisyon.x
-      value: 179.6786
+      value: 180.3786
       objectReference: {fileID: 0}
     - target: {fileID: 790659474751032523, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: bitisPozisyon.y
@@ -227,7 +227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.7
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -279,15 +279,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 8.968e-42
+      value: 61988190
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 6.803e-42
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.2e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 6.45e-42
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -308,7 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 790659474751032523, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: bitisPozisyon.x
-      value: 33.300003
+      value: 34.078583
       objectReference: {fileID: 0}
     - target: {fileID: 790659474751032523, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: bitisPozisyon.y
@@ -316,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -203.06
+      value: -201.3
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -365,6 +369,22 @@ PrefabInstance:
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 1.2004e-41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 6e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 6.6e-44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1026,6 +1046,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1571535804876287436, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571535804876287436, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571535804876287436, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c0d2261d0276594abdc0aa4b56856d1, type: 3}
     - target: {fileID: 2573839764289608286, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1446,7 +1478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 790659474751032523, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: bitisPozisyon.x
-      value: 135.5
+      value: 136.3786
       objectReference: {fileID: 0}
     - target: {fileID: 790659474751032523, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: bitisPozisyon.y
@@ -1454,7 +1486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -99.4
+      value: -99
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1979,11 +2011,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 9.109
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_Intensity
-      value: 0
+      value: 3.4149249
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
       propertyPath: m_BoundingSphereOverride.w
@@ -4660,8 +4692,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0017500222, y: -0.0013999939, z: 0}
-    m_Extent: {x: 0.99925005, y: 1.0042, z: 0}
+    m_Center: {x: -0.0010499954, y: 0.004499972, z: 0}
+    m_Extent: {x: 1.00825, y: 1.0032, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5465,11 +5497,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 315703201445711736, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.613377
+      value: 4.1634417
       objectReference: {fileID: 0}
     - target: {fileID: 315703201445711736, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -108.33282
+      value: -107.4047
       objectReference: {fileID: 0}
     - target: {fileID: 315703201445711736, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5517,7 +5549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1848919722300254515, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: bitisPozisyon.x
-      value: 38.4918
+      value: 39.419914
       objectReference: {fileID: 0}
     - target: {fileID: 1848919722300254515, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: bitisPozisyon.y

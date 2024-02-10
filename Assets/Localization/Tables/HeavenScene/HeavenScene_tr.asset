@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1020391145472
-    m_Localized: "Bu ger\xE7ek olabilir mi?"
+    m_Localized: "Bu ger\xE7ek \nolabilir mi?"
     m_Metadata:
       m_Items: []
   - m_Id: 1406002872320
@@ -40,7 +40,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2827750293504
-    m_Localized: "Ger\xE7ekten bu kadar m\u0131?"
+    m_Localized: "Ger\xE7ekten bu \nkadar m\u0131?"
     m_Metadata:
       m_Items: []
   - m_Id: 3358371692544
@@ -68,7 +68,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6359182295040
-    m_Localized: "\xD6l\xFCml\xFC olmak isteyecek kadr seni s\u0131kan \u015Fey nedir?"
+    m_Localized: "\xD6l\xFCml\xFC olmak isteyecek kadar seni s\u0131kan \u015Fey
+      nedir?"
     m_Metadata:
       m_Items: []
   - m_Id: 6629857509376
@@ -84,19 +85,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8230575882240
-    m_Localized: Her ruh sadece bir kere hayat bulabilir.
+    m_Localized: "Her ruh sadece bir \nkere hayat bulabilir."
     m_Metadata:
       m_Items: []
   - m_Id: 8688883286016
-    m_Localized: "Ben \xF6l\xFCms\xFCzken her g\xFCn \xF6l\xFCyorum."
+    m_Localized: "Ben \xF6l\xFCms\xFCzken \nher g\xFCn \xF6l\xFCyorum."
     m_Metadata:
       m_Items: []
   - m_Id: 9556772864000
-    m_Localized: "Senden tek iste\u011Fim son kez ya\u015Famak."
+    m_Localized: "Senden tek iste\u011Fim \nson kez ya\u015Famak."
     m_Metadata:
       m_Items: []
   - m_Id: 9975855136768
-    m_Localized: "Kanunlar\u0131 koyan dahi bozamaz."
+    m_Localized: "Kanunlar\u0131 koyan \ndahi bozamaz."
     m_Metadata:
       m_Items: []
   - m_Id: 10302440423424

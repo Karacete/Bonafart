@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 283187691520
-    m_Localized: God obeys the he made. Law makes God God. God creates.
+    m_Localized: God obeys the he made. Law makes god god. God creates.
     m_Metadata:
       m_Items: []
   - m_Id: 827880980480
@@ -51,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4856518361088
-    m_Localized: I don't know why, but if there's one thing I know...
+    m_Localized: "I don't know why, \nbut if there's one \nthing I know..."
     m_Metadata:
       m_Items: []
   - m_Id: 5489409474560
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7605326790656
-    m_Localized: God is playing games with me.
+    m_Localized: "God is playing \ngames with me."
     m_Metadata:
       m_Items: []
   - m_Id: 7820305842176
@@ -79,15 +79,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8519123025920
-    m_Localized: You don't belong here.
+    m_Localized: "You don't \nbelong here."
     m_Metadata:
       m_Items: []
   - m_Id: 9651736100864
-    m_Localized: I know, I didn't come willingly but I will return willingly.
+    m_Localized: "I know, I didn't come willingly \nbut I will return willingly."
     m_Metadata:
       m_Items: []
   - m_Id: 10262355460096
-    m_Localized: There is a price for being here.
+    m_Localized: "There is a price \nfor being here."
     m_Metadata:
       m_Items: []
   - m_Id: 10591134367744

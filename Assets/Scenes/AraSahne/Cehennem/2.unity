@@ -957,7 +957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ben kesinlikle buraya d\xFC\u015Fecek b\xFCy\xFCkl\xFCkte bir su\xE7 i\u015Flemedim."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -1274,8 +1274,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00069999695, y: 0.0031499863, z: 0}
-    m_Extent: {x: 1.0036, y: 1.00115, z: 0}
+    m_Center: {x: -0.00080001354, y: 0.0026999712, z: 0}
+    m_Extent: {x: 1.0031, y: 1.0071, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Buradan bir an \xF6nce ka\xE7mal\u0131y\u0131m."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -1549,6 +1549,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4236809001603233946, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
       insertIndex: -1
       addedObject: {fileID: 682226298}
+    - targetCorrespondingSourceObject: {fileID: 4236809001603233946, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 682226299}
   m_SourcePrefab: {fileID: 100100000, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
 --- !u!1 &682226297 stripped
 GameObject:
@@ -1599,6 +1602,102 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!82 &682226299
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682226297}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9187ce0a7701b224dbcdaeaf54739d8c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &694674148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +2065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu ne s\u0131cak b\xF6yle?"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -2388,7 +2487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Neden oldu\u011Funu bilmiyorum ama bildi\u011Fim bir \u015Fey varsa..."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -2831,7 +2930,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ben buraya \ng\xF6nderildim."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -3072,7 +3171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "...o da buraya \nyanl\u0131\u015Fl\u0131kla gidilmedi\u011Fidir."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -4115,7 +4214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CEHENNEM
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -4597,7 +4696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lanet olsun!
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -4983,7 +5082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tanr\u0131 benimle \noyun oynuyor."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -5369,7 +5468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "San\u0131r\u0131m ka\xE7mam\u0131n cezas\u0131n\u0131 \xE7ekiyorum."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -5621,9 +5720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ben...
-
-    Cehennemdeyim!'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}

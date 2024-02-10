@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2310068322304
-    m_Localized: Bonafart came to Earth.
+    m_Localized: "Bonafart came \nto Earth."
     m_Metadata:
       m_Items: []
   - m_Id: 2582710665216

@@ -10,13 +10,14 @@ public class AnaMenuScript : MonoBehaviour
     public void Start()
     {
         SaveLoadScript.Load();
-        if (File.Exists("gamesave.bin") && SaveData.scene > 0)
+        if (File.Exists("gamesave.bin"))
         {
-            continueButton.SetActive(true);
+            if (SaveData.scene > 0)
+                continueButton.SetActive(true);
         }
-            
         else
             continueButton.SetActive(false);
+        AudioListener.volume = SaveData.volume;
         script = GameObject.FindWithTag("Load");
     }
     private void Awake()

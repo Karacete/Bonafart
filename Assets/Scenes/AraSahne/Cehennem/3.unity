@@ -437,8 +437,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.4196999, y: -0.020734549, z: 0}
-    m_Extent: {x: 8.4026, y: 0.28453454, z: 0}
+    m_Center: {x: -0.42720008, y: -0.020184547, z: 0}
+    m_Extent: {x: 8.4016, y: 0.28508455, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2080,7 +2080,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ceza \xE7ekmeye hi\xE7 niyetim yok."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -2332,7 +2332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Burada bulunman\u0131n bir bedeli var."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -2853,7 +2853,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kurtulu\u015Fun yok!"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -3592,7 +3592,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Biliyorum, isteyerek gelmedim ama isteyerek gidece\u011Fim."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -3841,8 +3841,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0013999939, y: -0.00044995546, z: 0}
-    m_Extent: {x: 1.0079, y: 1.0065501, z: 0}
+    m_Center: {x: -0.005950004, y: 0.004450023, z: 0}
+    m_Extent: {x: 1.00335, y: 1.00215, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3914,6 +3914,7 @@ GameObject:
   - component: {fileID: 1881211835}
   - component: {fileID: 1881211834}
   - component: {fileID: 1881211837}
+  - component: {fileID: 1881211838}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4040,6 +4041,102 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!82 &1881211838
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881211833}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9187ce0a7701b224dbcdaeaf54739d8c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1977687595
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,7 +4272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sen buraya ait de\u011Filsin."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}

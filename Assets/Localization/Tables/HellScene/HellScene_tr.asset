@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 283187691520
-    m_Localized: "Tanr\u0131 koydu\u011Fu kanuna uyar. Kanun Tanr\u0131'y\u0131 Tanr\u0131
+    m_Localized: "Tanr\u0131 koydu\u011Fu kanuna uyar. Kanun tanr\u0131y\u0131 tanr\u0131
       yapar. Tanr\u0131 yarat\u0131r."
     m_Metadata:
       m_Items: []
@@ -84,7 +84,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8519123025920
-    m_Localized: "Sen buraya ait de\u011Filsin."
+    m_Localized: "Sen buraya \nait de\u011Filsin."
     m_Metadata:
       m_Items: []
   - m_Id: 9651736100864
@@ -108,8 +108,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11705623855104
-    m_Localized: "Bonafart ka\xE7arken \xF6n\xFCne aniden bir \u0131s\u0131k kayna\u011F\u0131
-      \xE7\u0131kar."
+    m_Localized: "Bonafart ka\xE7arken \xF6n\xFCne aniden bir \u0131\u015F\u0131k
+      kayna\u011F\u0131 \xE7\u0131kar."
     m_Metadata:
       m_Items: []
   - m_Id: 12449181679616

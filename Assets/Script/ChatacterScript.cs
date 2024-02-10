@@ -25,7 +25,7 @@ public class ChatacterScript : MonoBehaviour
         animasyon.SetBool("zýplamaBittiMi", true);
         gravity = GetComponent<Rigidbody2D>();
         script = GameObject.FindWithTag("AD");
-        loadScript=GameObject.FindWithTag("Load");
+        loadScript = GameObject.FindWithTag("Load");
     }
 
     private void Update()
@@ -60,10 +60,6 @@ public class ChatacterScript : MonoBehaviour
         {
             collision.collider.transform.SetParent(null);
             script.GetComponent<ADManagerScript>().ShowInterstitial();
-        }
-        if (collision.gameObject == null && !zipladiMi)
-        {
-            animasyon.Play("Dusme");
         }
         if (collision.gameObject.CompareTag("Limit"))
         {

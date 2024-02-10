@@ -6,6 +6,7 @@ public class SaveData
 {
     public static int scene;
     public static int language;
+    public static int volume;
 }
 public class SaveLoadScript
 {
@@ -16,6 +17,7 @@ public class SaveLoadScript
         {
             bf.Serialize(fs, SaveData.scene);
             bf.Serialize(fs, SaveData.language);
+            bf.Serialize(fs, SaveData.volume);
         }
     }
     public static void Load()
@@ -27,6 +29,7 @@ public class SaveLoadScript
         {
             SaveData.scene=Convert.ToInt32(bf.Deserialize(fs));
             SaveData.language = Convert.ToInt32(bf.Deserialize(fs));
+            SaveData.volume = Convert.ToInt32(bf.Deserialize(fs));
         }
     }
 }

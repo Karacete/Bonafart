@@ -1538,6 +1538,18 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0.23137257
       objectReference: {fileID: 0}
+    - target: {fileID: 1571535804876287436, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571535804876287436, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571535804876287436, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c0d2261d0276594abdc0aa4b56856d1, type: 3}
     - target: {fileID: 2196105512118687976, guid: 70ed8827c606a334bb8778a79ce29863, type: 3}
       propertyPath: m_Mass
       value: 1
@@ -4682,8 +4694,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0024499893, y: -0.004400015, z: 0}
-    m_Extent: {x: 1.00585, y: 1.0009, z: 0}
+    m_Center: {x: 0.0017499924, y: 0.002949953, z: 0}
+    m_Extent: {x: 1.00305, y: 1.00605, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

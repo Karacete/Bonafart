@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlatformHareketScript : MonoBehaviour
 {
+    private GameObject playerScript;
     [SerializeField]
     private float hiz;
     private Vector3 baslangicPozisyon;
@@ -14,10 +15,11 @@ public class PlatformHareketScript : MonoBehaviour
     private void Start()
     {
         baslangicPozisyon = platform.transform.position;
+        playerScript = GameObject.FindWithTag("Player");
     }
     private void FixedUpdate()
     {
-        if(platform.transform.position==baslangicPozisyon)
+        if (platform.transform.position == baslangicPozisyon)
         {
             if (gameObject.CompareTag("FireBall"))
                 gameObject.transform.Rotate(180, 90, 0);
@@ -43,6 +45,10 @@ public class PlatformHareketScript : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && gameObject.CompareTag("Ground"))
+        {
             collision.collider.transform.SetParent(null);
+            gameObject.SetActive(false);
+        }
+
     }
 }

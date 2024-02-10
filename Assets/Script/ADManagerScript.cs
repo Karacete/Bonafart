@@ -14,7 +14,7 @@ public class ADManagerScript : MonoBehaviour
     }
     public void RequestInterstitial()
     {      
-        string reklamID = "ca-app-pub-3940256099942544/1033173712";
+        string reklamID = "ca-app-pub-4552243857039919/8339173339";
         if (gecisReklami != null)
         {
             gecisReklami.Destroy();

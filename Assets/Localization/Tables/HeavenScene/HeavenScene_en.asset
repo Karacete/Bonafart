@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1020391145472
-    m_Localized: Could this be real?
+    m_Localized: "Could this \nbe real?"
     m_Metadata:
       m_Items: []
   - m_Id: 1406002872320
@@ -39,11 +39,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2827750293504
-    m_Localized: Was it really that much?
+    m_Localized: "Was it really \nthat much?"
     m_Metadata:
       m_Items: []
   - m_Id: 3358371692544
-    m_Localized: I have seen and tasted every taste, every color.
+    m_Localized: "I have seen and \ntasted every taste, \nevery color."
     m_Metadata:
       m_Items: []
   - m_Id: 3663675080704
@@ -59,11 +59,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5374070308864
-    m_Localized: I know you hear my voice.
+    m_Localized: "I know you \nhear my voice."
     m_Metadata:
       m_Items: []
   - m_Id: 5626252836864
-    m_Localized: I want to return among mortals.
+    m_Localized: "I want to return \namong mortals."
     m_Metadata:
       m_Items: []
   - m_Id: 6359182295040
@@ -99,11 +99,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10302440423424
-    m_Localized: Even I cannot fulfill this request.
+    m_Localized: "Even I cannot \nfulfill this request."
     m_Metadata:
       m_Items: []
   - m_Id: 10923528765440
-    m_Localized: Looks like I won't get God's help
+    m_Localized: "Looks like I won't \nget God's help"
     m_Metadata:
       m_Items: []
   - m_Id: 11402442784768

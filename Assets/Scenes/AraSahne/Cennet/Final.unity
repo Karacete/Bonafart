@@ -763,8 +763,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Yasak elmadan bir \u0131s\u0131r\u0131k almas\u0131 onu D\xFCnya' ya, 
-    \xF6l\xFCml\xFClerin aras\u0131na g\xF6nderecektir."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -939,7 +938,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bonafart, sonunda \xE7\u0131k\u0131\u015F biletini bulur."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
@@ -1280,6 +1279,7 @@ GameObject:
   - component: {fileID: 1119659902}
   - component: {fileID: 1119659901}
   - component: {fileID: 1119659904}
+  - component: {fileID: 1119659905}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1405,6 +1405,102 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!82 &1119659905
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119659900}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9187ce0a7701b224dbcdaeaf54739d8c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1310214050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1836,9 +1932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hi\xE7 teredd\xFCt etmeden bir \u0131s\u0131r\u0131k al\u0131r. Tad\u0131
-    normal elmadan \xE7ok daha tatl\u0131d\u0131r. Bonafart, \u0131s\u0131r\u0131ktan
-    sonra kendini biraz k\xF6t\xFC hisseder ve bir anda bay\u0131l\u0131r."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
   m_sharedMaterial: {fileID: -9125988397845461082, guid: 3c572be01fd76df40a3375cfce48019d, type: 2}
