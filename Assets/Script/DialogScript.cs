@@ -9,11 +9,11 @@ public class DialogScript : MonoBehaviour
     private List<GameObject> textPanel;
     [SerializeField]
     private GameObject gecButton;
-    private GameObject loadScript;
+    private LoadSceneManagerScript loadScript;
     void Start()
     {
         StartCoroutine(Dialog());
-        loadScript = GameObject.FindWithTag("Load");
+        loadScript = GameObject.FindWithTag("Load").GetComponent<LoadSceneManagerScript>();
     }
     private IEnumerator Dialog()
     {
@@ -30,9 +30,9 @@ public class DialogScript : MonoBehaviour
     }
     public void NextScene()
     {
-        loadScript.GetComponent<LoadSceneManagerScript>().Load(SceneManager.GetActiveScene().buildIndex + 1);
-        SaveData.scene = SceneManager.GetActiveScene().buildIndex + 1;
-        SaveLoadScript.Save();
+        loadScript.Load(SceneManager.GetActiveScene().buildIndex + 1);
+        PlayerPrefs.SetInt("Scene", SceneManager.GetActiveScene().buildIndex + 1);
+        PlayerPrefs.Save();
     }
     public void AnaMenu()
     {

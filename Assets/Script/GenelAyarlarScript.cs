@@ -1,6 +1,8 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GenelAyarlarScript : MonoBehaviour
 {
@@ -11,17 +13,34 @@ public class GenelAyarlarScript : MonoBehaviour
     private GameObject pauseCanvas;
     [SerializeField]
     private GameObject tusCanvas;
+    [SerializeField]
+    private Transform sinir1;
+    [SerializeField]
+    private Transform sinir2;
+    [SerializeField]
+    private Transform playerTransform;
+    [SerializeField]
+    private Slider katedilenYol;
     void Start()
     {
+        StartCoroutine(YolKatetme());
         StartCoroutine(TextGosterim());
         Time.timeScale = 1.0f;
     }
     private IEnumerator TextGosterim()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         text.SetActive(false);
     }
-
+    private IEnumerator YolKatetme()
+    {
+        float mesafe = Vector2.Distance(sinir1.position, sinir2.position);
+        while (true)
+        {
+            katedilenYol.value = playerTransform.transform.position.x / mesafe;
+            yield return null;
+        }
+    }
     public void Durdur()
     {
         Time.timeScale = 0f;

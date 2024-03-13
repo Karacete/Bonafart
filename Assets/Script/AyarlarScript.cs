@@ -36,41 +36,42 @@ public class AyarlarScript : MonoBehaviour
         TesekkurPanel.SetActive(false);
         EminMisinPanel.SetActive(false);
         GenelAyarPanel.SetActive(true);
-        if (File.Exists("gamesave.bin"))
+        if (PlayerPrefs.HasKey("Language"))
         {
-            clearButton.SetActive(true);
-            switch (SaveData.language)
+            switch (PlayerPrefs.GetInt("Language"))
             {
                 case 0:
-                    englishButton.SetActive(false);
-                    turkishButton.SetActive(true);
+                    DilAyari(0);
                     break;
                 case 1:
-                    turkishButton.SetActive(false);
-                    englishButton.SetActive(true);
-                    break;
-            }
-            switch (SaveData.volume)
-            {
-                case 0:
-                    sessizButton.SetActive(false);
-                    sesButton.SetActive(true);
-                    break;
-                case 1:
-                    sesButton.SetActive(false);
-                    sessizButton.SetActive(true);
+                    DilAyari(1);
                     break;
             }
         }
         else
         {
-            clearButton.SetActive(false);
-            englishButton.SetActive(false);
-            turkishButton.SetActive(true);
-            sesButton.SetActive(false);
-            sessizButton.SetActive(true);
-            AudioListener.volume = 1;
+            PlayerPrefs.SetInt("Language", 0);
+            DilAyari(0);
         }
+        if (PlayerPrefs.HasKey("Volume"))
+        {
+            switch (PlayerPrefs.GetInt("Volume"))
+            {
+                case 0:
+                    SesAyari(true);
+                    break;
+                case 1:
+                    SesAyari(false);
+                    break;
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Volume", 0);
+            SesAyari(false);
+        }
+        if (PlayerPrefs.GetInt("Scene") != 0)
+            clearButton.SetActive(true);
     }
     public void AyarlarKapat()
     {
@@ -98,30 +99,30 @@ public class AyarlarScript : MonoBehaviour
     {
         if (isSound)
         {
-            sessizButton.SetActive(false);
-            sesButton.SetActive(true);
+            sesButton.SetActive(false);
+            sessizButton.SetActive(true);
             AudioListener.volume = 0;
         }
         else if (!isSound)
         {
-            sesButton.SetActive(false);
-            sessizButton.SetActive(true);
+            sessizButton.SetActive(false);
+            sesButton.SetActive(true);
             AudioListener.volume = 1;
         }
-        SaveData.volume = Convert.ToInt32(AudioListener.volume);
-        SaveLoadScript.Save();
+        PlayerPrefs.SetInt("Volume", Convert.ToInt32(AudioListener.volume));
+        PlayerPrefs.Save();
     }
     public void KaliteAyari(int quality)
     {
         if (quality > 0)
         {
-            yuksekButton.SetActive(false);
-            dusukButton.SetActive(true);
+            dusukButton.SetActive(false);
+            yuksekButton.SetActive(true);
         }
         else if (quality < 0)
         {
-            dusukButton.SetActive(false);
-            yuksekButton.SetActive(true);
+            yuksekButton.SetActive(false);
+            dusukButton.SetActive(true);
         }
         QualitySettings.SetQualityLevel(quality);
     }
@@ -129,22 +130,20 @@ public class AyarlarScript : MonoBehaviour
     {
         if (id == 0)
         {
-            englishButton.SetActive(false);
-            turkishButton.SetActive(true);
+            turkishButton.SetActive(false);
+            englishButton.SetActive(true);
         }
         else if (id == 1)
         {
-            turkishButton.SetActive(false);
-            englishButton.SetActive(true);
+            englishButton.SetActive(false);
+            turkishButton.SetActive(true);
         }
     }
     public void Evet()
     {
         EminMisinPanel.SetActive(false);
         GenelAyarPanel.SetActive(true);
-        File.Delete("gamesave.bin");
-        SaveData.scene = 0;
-        SaveData.volume = 1;
+        PlayerPrefs.DeleteAll();
         clearButton.SetActive(false);
     }
     public void Hayir()

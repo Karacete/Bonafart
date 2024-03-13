@@ -45,8 +45,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.99607843, g: 0.6039216, b: 0.3764706, a: 1}
-  m_Intensity: 3.305455
-  m_Range: 8.610909
+  m_Intensity: 3.3159125
+  m_Range: 8.6318245
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -14597,7 +14597,6 @@ MonoBehaviour:
   hiz: 0
   bitisPozisyon: {x: 0, y: 0, z: 0}
   platform: {fileID: 6294508013172393196}
-  defaultPozisyon: {fileID: 6294508013172393185}
 --- !u!58 &3386318048275956025
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14630,6 +14629,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.69432974}
+  m_Offset: {x: 0.011686921, y: 0.69432974}
   serializedVersion: 2
-  m_Radius: 0.78664064
+  m_Radius: 0.5645914

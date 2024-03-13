@@ -73,9 +73,6 @@ EditorBuildSettings:
     guid: 090ac3e3206d9184db63727c5dbccaa6
   - enabled: 1
     path: Assets/Scenes/Chapter3/Level3Scene.unity
-    guid: a57714c57a2940544b28adfb00c18dda
-  - enabled: 1
-    path: Assets/Scenes/Chapter3/Level4Scene.unity
     guid: a53355553317d8c4fbd732bad783088b
   - enabled: 1
     path: Assets/Scenes/AraSahne/Cehennem/3.unity

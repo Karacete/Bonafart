@@ -35,6 +35,7 @@ namespace CartoonFX
             window.maxSize = new Vector2(516, 370);
         }
 
+        [System.Obsolete]
         private void CreateGUI()
         {
             VisualElement root = rootVisualElement;

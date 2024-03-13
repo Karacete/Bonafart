@@ -1,17 +1,22 @@
 using System.Collections;
-using System.IO;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
+
 public class LocalizationScript : MonoBehaviour
 {
     private bool aktifMi = false;
+    private int language;
     public void Start()
     {
-        if (File.Exists("gamesave.bin"))
-            StartCoroutine(SetLocale(SaveData.language));
+        if (PlayerPrefs.HasKey("Language"))
+        {
+            language = PlayerPrefs.GetInt("Language");
+            StartCoroutine(SetLocale(language));
+        }
         else
         {
-          StartCoroutine(SetLocale(0));
+            PlayerPrefs.SetInt("Language", 0);
+            StartCoroutine(SetLocale(0));
         }
     }
     public void DilDegistir(int id)
@@ -19,8 +24,8 @@ public class LocalizationScript : MonoBehaviour
         if (aktifMi)
             return;
         StartCoroutine(SetLocale(id));
-        SaveData.language = id;
-        SaveLoadScript.Save();
+        PlayerPrefs.SetInt("Language", id);
+        PlayerPrefs.Save();
     }
     IEnumerator SetLocale(int siraNumara)
     {

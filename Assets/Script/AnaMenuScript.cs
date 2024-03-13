@@ -9,20 +9,23 @@ public class AnaMenuScript : MonoBehaviour
     private GameObject script;
     public void Start()
     {
-        SaveLoadScript.Load();
-        if (File.Exists("gamesave.bin"))
-        {
-            if (SaveData.scene > 0)
-                continueButton.SetActive(true);
-        }
+        if (PlayerPrefs.HasKey("Language"))
+            PlayerPrefs.GetInt("Language");
+        else
+            PlayerPrefs.SetInt("Langauge", 0);
+
+        if (PlayerPrefs.HasKey("Volume"))
+            PlayerPrefs.GetInt("Volume");
+        else
+            PlayerPrefs.SetInt("Volume", 1);
+
+        if (PlayerPrefs.HasKey("Scene"))
+            continueButton.SetActive(true);
         else
             continueButton.SetActive(false);
-        AudioListener.volume = SaveData.volume;
+
         script = GameObject.FindWithTag("Load");
-    }
-    private void Awake()
-    {
-        SaveLoadScript.Load();
+        AudioListener.volume = PlayerPrefs.GetInt("Volume");
     }
     public void OyunaBasla()
     {
@@ -34,8 +37,7 @@ public class AnaMenuScript : MonoBehaviour
     }
     public void DevamEt()
     {
-        SaveLoadScript.Load();
-        script.GetComponent<LoadSceneManagerScript>().Load(SaveData.scene);
+        script.GetComponent<LoadSceneManagerScript>().Load(PlayerPrefs.GetInt("Scene"));
     }
     public void CikisYap()
     {

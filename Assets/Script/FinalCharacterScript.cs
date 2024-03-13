@@ -11,7 +11,6 @@ public class FinalCharacterScript: MonoBehaviour
     private GameObject cehennemCanvas;
     [SerializeField]
     private GameObject dunyaCanvas;
-    // Start is called before the first frame update
     void Start()
     {
         melekisActive = false;

@@ -13,7 +13,7 @@ public class ADManagerScript : MonoBehaviour
         loadScript = GameObject.FindWithTag("Load");
     }
     public void RequestInterstitial()
-    {      
+    {
         string reklamID = "ca-app-pub-4552243857039919/8339173339";
         if (gecisReklami != null)
         {
@@ -24,10 +24,7 @@ public class ADManagerScript : MonoBehaviour
         InterstitialAd.Load(reklamID, request, (InterstitialAd ad, LoadAdError error) =>
         {
             if (error != null || ad == null)
-            {
-                Debug.LogError("Reklam yüklenmedi ve " + error + "hatasý döndürdü");
                 return;
-            }
             gecisReklami = ad;
             RegisterEventHandlers(gecisReklami);
         });
@@ -37,11 +34,9 @@ public class ADManagerScript : MonoBehaviour
         MobileAds.Initialize(initStatus => { });
         this.RequestInterstitial();
         if (gecisReklami != null && gecisReklami.CanShowAd())
-        {
             gecisReklami.Show();
-        }            
         else
-            Debug.LogError("Ad is not ready yet");
+            loadScript.GetComponent<LoadSceneManagerScript>().Load(SceneManager.GetActiveScene().buildIndex);
     }
     private void RegisterEventHandlers(InterstitialAd ad)
     {

@@ -12,6 +12,9 @@ TagManager:
   - Door
   - AD
   - Load
+  - Music
+  - Engel
+  - StartPoint
   layers:
   - Default
   - TransparentFX

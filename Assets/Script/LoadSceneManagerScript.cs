@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -20,7 +19,7 @@ public class LoadSceneManagerScript : MonoBehaviour
     }
     IEnumerator StartLoading(int level)
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(level);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(level, LoadSceneMode.Single);
         while(!operation.isDone)
         {
             yuklemeBar.value = operation.progress;
