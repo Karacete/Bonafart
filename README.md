@@ -63,3 +63,5 @@ private void Start()
 ```
 
 - Karakter öldüğünde reklam çıkması için `Start()`fonksiyonu içerisinde scripti atadığımız **script** değişkeniyle `ShowInterstitial()` fonksiyonunu çağırıyoruz.
+
+devamı gelecek...
