@@ -64,4 +64,16 @@ private void Start()
 
 - Karakter öldüğünde reklam çıkması için `Start()`fonksiyonu içerisinde scripti atadığımız **script** değişkeniyle `ShowInterstitial()` fonksiyonunu çağırıyoruz.
 
-devamı gelecek...
+4.
+
+```
+ public void IleriHareket()
+    {
+        yatayHareket = 1;
+        sr.flipX = false;
+        animasyon.Play("Kosma");
+        animasyon.SetBool("kosmaBittiMi", false);
+    }
+```
+- Oyuncunun gerekli butona basmasıyla karakterin ileri hareketini sağayan fonksiyondur. `FixedUpdate()` fonksiyonu içerisinde de görebileceğimiz gibi `yatayHareket`, karakterin yatayda hareketini sağlamaktadır. 1 değeri ise karakterin pozitif yöne yani ileriye gitmesini sağlar. `sr.flipX` ise karakter sprite'nın
+ters çevrilmesini yani terse dönme işlemini false yapıyor. ***Kosma*** animasyonu çalışıyor ve animasyon çalıştığı için ***kosmaBittiMi*** sorgusu false oluyor.
