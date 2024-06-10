@@ -36,6 +36,18 @@ public class CharacterScript : MonoBehaviour
         if (!animasyon.GetBool("kosmaBittiMi"))
             StartCoroutine(KonumDegisikigi());
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+            Ziplama();
+        if (Input.GetKeyDown(KeyCode.D))
+            ÝleriHareket();
+        if (Input.GetKeyDown(KeyCode.A))
+            GeriHareket();
+        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+            Dur();
+
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
