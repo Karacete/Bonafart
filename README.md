@@ -7,6 +7,7 @@ Bonafart, basit kontoller ama zorlayıcı seviyelerle sizi ekrana bağlayacak bi
 Minimal tasarım ve sakin müzikler sizlere rahatlatıcı bir deneyim sunar. Her seviyede farklı engeller ve zorluklar sizi bekliyor. 
 Sonuç olarak Bonafart sadece bir karakterin engelleri aşarak ilerlediği basit bir platform oyunudur. Oyuna bakmak isterseniz
 [buraya](https://play.google.com/store/apps/details?id=com.MEKAGAMES.Bonafart&pcampaignid=web_share) tıklayınız.
+- Bonafart oyununu yaparken ***Admob üzerinden reklam entegrasyonu***, ***genel karakter mekanikleri***, ***Scene kontolleri***, ***2D animasyon yapımı***, ***localization***, ***genel bölüm tasarımları*** gibi konularda bilgi sahibi oldum.
  - Şimdi size içeriğinden bahsetmek istiyorum.
    
  ## Mekanikler
