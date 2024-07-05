@@ -3,6 +3,8 @@ using UnityEngine;
 public class PlatformHareketScript : MonoBehaviour
 {
     [SerializeField]
+    private bool isEndlessPlatform;
+    [SerializeField]
     private float hiz;
     private Vector3 baslangicPozisyon;
     [SerializeField]
@@ -12,6 +14,8 @@ public class PlatformHareketScript : MonoBehaviour
     private void Start()
     {
         baslangicPozisyon = platform.transform.position;
+        if (isEndlessPlatform)
+            bitisPozisyon.x = baslangicPozisyon.x;
     }
     private void FixedUpdate()
     {

@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,7 +13,7 @@ public class TileManagmentScript : MonoBehaviour
     void Start()
     {
         xSpawn = 0;
-        tileLength = 115;
+        tileLength = 153.5f;
         playerTransform = GameObject.FindWithTag("Player").transform;
         numberofTiles = 3;
         for (int i = 0; i < numberofTiles; i++)
@@ -22,8 +21,6 @@ public class TileManagmentScript : MonoBehaviour
             TileSpawn(Random.Range(0, tilesPrefabs.Length));
         }
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (playerTransform.position.x - 100 > xSpawn - (numberofTiles * tileLength))
@@ -35,13 +32,11 @@ public class TileManagmentScript : MonoBehaviour
     private void TileSpawn(int tileIndex)
     {
         GameObject go = Instantiate(tilesPrefabs[tileIndex], transform.right * xSpawn, transform.rotation);
-        Debug.Log(go.transform.position +" "+ go.name);
         activeTiles.Add(go);
         xSpawn += tileLength;
     }
     private void DeleteTile()
     {
-        Debug.Log("silinen" + activeTiles[0].name);
         Destroy(activeTiles[0]);
         activeTiles.RemoveAt(0);
     }

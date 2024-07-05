@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/AyarlarScene.unity
     guid: 0a8cecb4f13d8884782885e8332f338e
   - enabled: 1
+    path: Assets/Scenes/EndlessScene/EndlessModeScene.unity
+    guid: befcbd18c501ed245b4b3d446fba78b3
+  - enabled: 1
     path: Assets/Scenes/AraSahne/Cennet/1.unity
     guid: 2114c974f40cedb44a671139b244f783
   - enabled: 1

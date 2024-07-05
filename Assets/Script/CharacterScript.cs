@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,6 +15,7 @@ public class CharacterScript : MonoBehaviour
     private ADManagerScript script;
     private LoadSceneManagerScript loadScript;
     private AudioSource jump;
+    public double score;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -27,11 +29,13 @@ public class CharacterScript : MonoBehaviour
         animasyon.SetBool("kosmaBittiMi", true);
         script = GameObject.FindWithTag("AD").GetComponent<ADManagerScript>();
         loadScript = GameObject.FindWithTag("Load").GetComponent<LoadSceneManagerScript>();
-        jump=GetComponent<AudioSource>();
+        jump = GetComponent<AudioSource>();
+        score = 0;
     }
     private void FixedUpdate()
     {
-        
+        score = this.gameObject.transform.position.x + 165.6;
+        score = Math.Round(score, 2);
         rb.velocity = new Vector3(yatayHareket * Time.deltaTime * runSpeed, rb.velocity.y, 0);
         if (!animasyon.GetBool("kosmaBittiMi"))
             StartCoroutine(KonumDegisikigi());
@@ -110,10 +114,10 @@ public class CharacterScript : MonoBehaviour
 
     public void GeriHareket()
     {
-            yatayHareket = -1;
-            sr.flipX = true;
-            animasyon.Play("Kosma");
-            animasyon.SetBool("kosmaBittiMi", false);
+        yatayHareket = -1;
+        sr.flipX = true;
+        animasyon.Play("Kosma");
+        animasyon.SetBool("kosmaBittiMi", false);
     }
 
     public void Dur()

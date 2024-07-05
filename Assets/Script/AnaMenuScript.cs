@@ -1,4 +1,3 @@
-using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -29,7 +28,7 @@ public class AnaMenuScript : MonoBehaviour
     }
     public void OyunaBasla()
     {
-        script.GetComponent<LoadSceneManagerScript>().Load(2);
+        script.GetComponent<LoadSceneManagerScript>().Load(3);
     }
     public void AyarlarAc()
     {
@@ -39,8 +38,8 @@ public class AnaMenuScript : MonoBehaviour
     {
         script.GetComponent<LoadSceneManagerScript>().Load(PlayerPrefs.GetInt("Scene"));
     }
-    public void CikisYap()
+    public void SonsuzMod()
     {
-        Application.Quit();
+        script.GetComponent<LoadSceneManagerScript>().Load(2);
     }
 }

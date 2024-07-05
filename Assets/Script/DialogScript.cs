@@ -12,7 +12,6 @@ public class DialogScript : MonoBehaviour
     private LoadSceneManagerScript loadScript;
     void Start()
     {
-        gecButton.SetActive(true);
         StartCoroutine(Dialog());
         loadScript = GameObject.FindWithTag("Load").GetComponent<LoadSceneManagerScript>();
     }
@@ -24,6 +23,7 @@ public class DialogScript : MonoBehaviour
             index += 1;
             text.SetActive(true);
             yield return new WaitForSeconds(3);
+            gecButton.SetActive(true);
             if (index != textPanel.Count)
                 text.SetActive(false);
         }
