@@ -5,6 +5,10 @@ public class AnaMenuScript : MonoBehaviour
 {
     [SerializeField]
     private GameObject continueButton;
+    [SerializeField]
+    private GameObject surePanel;
+    [SerializeField]
+    private GameObject anaPanel;
     private GameObject script;
     public void Start()
     {
@@ -23,12 +27,29 @@ public class AnaMenuScript : MonoBehaviour
         else
             continueButton.SetActive(false);
 
+        anaPanel.SetActive(true);
         script = GameObject.FindWithTag("Load");
         AudioListener.volume = PlayerPrefs.GetInt("Volume");
     }
     public void OyunaBasla()
     {
+        if (PlayerPrefs.HasKey("Scene"))
+        {
+            anaPanel.SetActive(false);
+            surePanel.SetActive(true);
+        }
+        else
+            script.GetComponent<LoadSceneManagerScript>().Load(3);
+
+    }
+    public void OyunuSifirla()
+    {
         script.GetComponent<LoadSceneManagerScript>().Load(3);
+    }
+    public void OyunuSifirlama()
+    {
+        surePanel.SetActive(false);
+        anaPanel.SetActive(true);
     }
     public void AyarlarAc()
     {

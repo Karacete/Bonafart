@@ -892,6 +892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 773141967}
   anaPanel: {fileID: 1256922115}
+  eminMisinPanel: {fileID: 1256922115}
   yuklemePanel: {fileID: 773141965}
 --- !u!4 &600196249
 Transform:
@@ -1741,8 +1742,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0005002022, y: 0.0021998882, z: 0}
-    m_Extent: {x: 5.5049, y: 5.5011997, z: 0}
+    m_Center: {x: 0.0024001598, y: 0.006850004, z: 0}
+    m_Extent: {x: 5.5069, y: 5.49955, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

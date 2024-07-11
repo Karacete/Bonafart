@@ -1912,6 +1912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 1405470883}
   anaPanel: {fileID: 1718046640}
+  eminMisinPanel: {fileID: 1718046640}
   yuklemePanel: {fileID: 1405470884}
 --- !u!4 &1853585394
 Transform:

@@ -1060,6 +1060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 1106716849}
   anaPanel: {fileID: 2078002188}
+  eminMisinPanel: {fileID: 2078002188}
   yuklemePanel: {fileID: 1106716848}
 --- !u!4 &981081255
 Transform:
@@ -1360,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4116225798629269053, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4181013524153933155, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -1543,6 +1548,10 @@ PrefabInstance:
     - target: {fileID: 8698449247513550910, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970074881519887898, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9027721890419717268, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
       propertyPath: m_StaticEditorFlags

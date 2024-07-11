@@ -1415,6 +1415,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4116225798629269053, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4181013524153933155, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -1586,6 +1590,10 @@ PrefabInstance:
     - target: {fileID: 8698449247513550910, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970074881519887898, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9027721890419717268, guid: 2d6c637da1c69c1439f09093cb7f92b6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2387,6 +2395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 766534983}
   anaPanel: {fileID: 180965738}
+  eminMisinPanel: {fileID: 180965738}
   yuklemePanel: {fileID: 766534982}
 --- !u!4 &1205778433
 Transform:
@@ -4537,8 +4546,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0022000074, y: 0.0024999976, z: 0}
-    m_Extent: {x: 1.0051, y: 1.0054, z: 0}
+    m_Center: {x: 0.003399998, y: 0.0020499825, z: 0}
+    m_Extent: {x: 1.0016, y: 1.0071499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

@@ -285,6 +285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 2110746050}
   anaPanel: {fileID: 664957957}
+  eminMisinPanel: {fileID: 664957957}
   yuklemePanel: {fileID: 2110746049}
 --- !u!4 &34138133
 Transform:
@@ -2834,8 +2835,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.000050008297, y: 0.0041000247, z: 0}
-    m_Extent: {x: 1.00435, y: 1.0054, z: 0}
+    m_Center: {x: 0.00045001507, y: -0.0009499788, z: 0}
+    m_Extent: {x: 1.00765, y: 1.00595, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3752,10 +3753,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce93cd1ad04e0349a90e6c245c2bc5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEndlessPlatform: 0
   hiz: 15
   bitisPozisyon: {x: 62.235443, y: 10, z: 0}
   platform: {fileID: 1336696456}
-  defaultPozisyon: {fileID: 1336696461}
 --- !u!4 &1336696461 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}

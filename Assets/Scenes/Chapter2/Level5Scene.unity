@@ -1022,6 +1022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce93cd1ad04e0349a90e6c245c2bc5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEndlessPlatform: 0
   hiz: 7
   bitisPozisyon: {x: 250, y: -2, z: 0}
   platform: {fileID: 512224842}
@@ -3088,8 +3089,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 17.03365, y: 2.6843503, z: 0}
-    m_Extent: {x: 21.645351, y: 10.62425, z: 0}
+    m_Center: {x: 17.0334, y: 2.68785, z: 0}
+    m_Extent: {x: 21.6523, y: 10.63155, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5641,6 +5642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 636344006}
   anaPanel: {fileID: 1690911038}
+  eminMisinPanel: {fileID: 1690911038}
   yuklemePanel: {fileID: 636344005}
 --- !u!4 &2113137712
 Transform:

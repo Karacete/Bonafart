@@ -3222,6 +3222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2895c99cf564154093e1561218ca67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
 --- !u!61 &574089914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3922,6 +3923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 134187072}
   anaPanel: {fileID: 1416207706}
+  eminMisinPanel: {fileID: 1416207706}
   yuklemePanel: {fileID: 134187071}
 --- !u!4 &1266990326
 Transform:

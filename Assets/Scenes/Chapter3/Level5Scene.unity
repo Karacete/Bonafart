@@ -1379,8 +1379,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.42776394, y: -0.022884548, z: 0}
-    m_Extent: {x: 8.401536, y: 0.28238454, z: 0}
+    m_Center: {x: -0.4196999, y: -0.024422929, z: 0}
+    m_Extent: {x: 8.4026, y: 0.28084618, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9143,8 +9143,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.004099965, y: 0.0018000007, z: 0}
-    m_Extent: {x: 1.0058, y: 1.0050001, z: 0}
+    m_Center: {x: -0.003099978, y: 0.004649967, z: 0}
+    m_Extent: {x: 1.0004001, y: 0.99794996, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9520,8 +9520,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.005800009, y: 0.0030500293, z: 0}
-    m_Extent: {x: 1.0023, y: 1.0051501, z: 0}
+    m_Center: {x: 0.0012500286, y: 0.0021999478, z: 0}
+    m_Extent: {x: 1.00475, y: 1.0025, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -10689,8 +10689,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.003099978, y: -0.0025999844, z: 0}
-    m_Extent: {x: 1.0054, y: 1.0017, z: 0}
+    m_Center: {x: 0.0027000308, y: -0.006399989, z: 0}
+    m_Extent: {x: 1.006, y: 1.0013, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -10943,6 +10943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 1192886329}
   anaPanel: {fileID: 1582848764}
+  eminMisinPanel: {fileID: 1582848764}
   yuklemePanel: {fileID: 1192886328}
 --- !u!4 &1969148597
 Transform:
@@ -11478,6 +11479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce93cd1ad04e0349a90e6c245c2bc5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEndlessPlatform: 0
   hiz: 7.5
   bitisPozisyon: {x: 500, y: 0, z: -10}
   platform: {fileID: 2091925633}

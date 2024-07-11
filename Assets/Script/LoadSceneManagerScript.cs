@@ -10,10 +10,13 @@ public class LoadSceneManagerScript : MonoBehaviour
     [SerializeField]
     private GameObject anaPanel;
     [SerializeField]
+    private GameObject eminMisinPanel;
+    [SerializeField]
     private GameObject yuklemePanel;
     public void Load(int level)
     {
         anaPanel.SetActive(false);
+        eminMisinPanel.SetActive(false);
         yuklemePanel.SetActive(true);
         StartCoroutine(StartLoading(level));
     }
