@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yuklemeBar: {fileID: 6590687066831854266}
   anaPanel: {fileID: 5683144606240720541}
+  eminMisinPanel: {fileID: 5683144606240720541}
   yuklemePanel: {fileID: 2719357340838620201}
 --- !u!4 &75853163
 Transform:
@@ -2587,6 +2588,7 @@ GameObject:
   - component: {fileID: 6999704620641558392}
   - component: {fileID: 6593830788874981819}
   - component: {fileID: 1571535803831370444}
+  - component: {fileID: 6999704620641558393}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2967,11 +2969,11 @@ Transform:
   m_GameObject: {fileID: 4236809000565659546}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.3, y: -3.7, z: -10}
+  m_LocalPosition: {x: -156.3, y: 9.84, z: -10}
   m_LocalScale: {x: 1, y: 0.725, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5456719646525925864}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5456719646525925864
 Transform:
@@ -2985,8 +2987,7 @@ Transform:
   m_LocalPosition: {x: -165.6, y: 13.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5437885229273665464}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &5531931716569101178
@@ -3336,6 +3337,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4236809000565659546}
   m_Enabled: 1
+--- !u!114 &6999704620641558393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4236809000565659546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd566368baf978c4098fa0125c774a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hiz: 8
 --- !u!114 &7002466699237939799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4000,6 +4014,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 580007357}
+  - {fileID: 5437885229273665464}
   - {fileID: 5456719646525925864}
   - {fileID: 116252708}
   - {fileID: 1154026779}

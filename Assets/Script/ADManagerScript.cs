@@ -33,10 +33,7 @@ public class ADManagerScript : MonoBehaviour
     {
         MobileAds.Initialize(initStatus => { });
         this.RequestInterstitial();
-        if (gecisReklami != null && gecisReklami.CanShowAd())
             gecisReklami.Show();
-        else
-            loadScript.GetComponent<LoadSceneManagerScript>().Load(SceneManager.GetActiveScene().buildIndex);
     }
     private void RegisterEventHandlers(InterstitialAd ad)
     {
