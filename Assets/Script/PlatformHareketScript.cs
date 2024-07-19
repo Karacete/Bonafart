@@ -24,11 +24,8 @@ public class PlatformHareketScript : MonoBehaviour
             baslangicPozisyon = bitisPozisyon;
             if (gameObject.CompareTag("FireBall"))
                 gameObject.transform.Rotate(180, 90, 0);
-            if (!gameObject.CompareTag("MainCamera"))
-            {
-                if (baslangicPozisyon == bitisPozisyon)
-                    bitisPozisyon = platform.transform.position;
-            }
+            if (baslangicPozisyon == bitisPozisyon)
+                bitisPozisyon = platform.transform.position;
         }
         platform.transform.position = Vector3.MoveTowards(platform.transform.position, baslangicPozisyon, Time.deltaTime * hiz);
     }

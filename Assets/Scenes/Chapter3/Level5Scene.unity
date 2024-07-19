@@ -1295,8 +1295,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.40080023, y: -0.05008523, z: 0}
-    m_Extent: {x: 8.4289, y: 0.43481988, z: 0}
+    m_Center: {x: -0.39940023, y: -0.049799994, z: 0}
+    m_Extent: {x: 8.423201, y: 0.4372, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9118,8 +9118,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00455001, y: -0.0026999712, z: 0}
-    m_Extent: {x: 0.99645007, y: 1.007, z: 0}
+    m_Center: {x: 0.0022000074, y: 0.0016499758, z: 0}
+    m_Extent: {x: 1.0021, y: 1.00805, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9495,8 +9495,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00455001, y: 0.0038000047, z: 0}
-    m_Extent: {x: 1.00275, y: 1.0036, z: 0}
+    m_Center: {x: -0.0020000339, y: -0.0020999908, z: 0}
+    m_Extent: {x: 1.0074999, y: 1.0053, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -10418,8 +10418,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00029999018, y: -0.0023500323, z: 0}
-    m_Extent: {x: 1.0033, y: 1.00365, z: 0}
+    m_Center: {x: 0.0024000108, y: 0.0019999743, z: 0}
+    m_Extent: {x: 0.9986, y: 1.0078, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11052,8 +11052,8 @@ GameObject:
   - component: {fileID: 2091925635}
   - component: {fileID: 2091925634}
   - component: {fileID: 2091925637}
-  - component: {fileID: 2091925638}
   - component: {fileID: 2091925639}
+  - component: {fileID: 2091925640}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -11180,22 +11180,6 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!114 &2091925638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091925633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dce93cd1ad04e0349a90e6c245c2bc5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isEndlessPlatform: 0
-  hiz: 7.7
-  bitisPozisyon: {x: 500, y: 0, z: -10}
-  platform: {fileID: 2091925633}
 --- !u!82 &2091925639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11292,6 +11276,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2091925640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091925633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd566368baf978c4098fa0125c774a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hiz: 7.7
 --- !u!1001 &2096078711
 PrefabInstance:
   m_ObjectHideFlags: 0

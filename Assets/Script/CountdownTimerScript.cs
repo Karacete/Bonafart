@@ -23,7 +23,7 @@ public class CountdownTimerScript : MonoBehaviour
         anaPanel.SetActive(false);
         countdownPanel.SetActive(true);
         kamera = GameObject.FindWithTag("MainCamera");
-        kamera.GetComponent<PlatformHareketScript>().enabled = false;
+        kamera.GetComponent<CameraMoveScript>().enabled = false;
         StartCoroutine(Countdown());
     }
     private IEnumerator Countdown()
@@ -39,6 +39,6 @@ public class CountdownTimerScript : MonoBehaviour
         }
         countdownPanel.SetActive(false);
         anaPanel.SetActive(true);
-        kamera.GetComponent<PlatformHareketScript>().enabled = true;
+        kamera.GetComponent<CameraMoveScript>().enabled = true;
     }
 }

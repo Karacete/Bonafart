@@ -619,7 +619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1848919722300254515, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: hiz
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1848919722300254515, guid: 07ded4d84d195b74ca83c0ec2458b93f, type: 3}
       propertyPath: bitisPozisyon.x
@@ -1130,13 +1130,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 512224842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dce93cd1ad04e0349a90e6c245c2bc5a, type: 3}
+  m_Script: {fileID: 11500000, guid: bd566368baf978c4098fa0125c774a8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEndlessPlatform: 0
-  hiz: 7.5
-  bitisPozisyon: {x: 250, y: -2, z: 0}
-  platform: {fileID: 512224842}
+  hiz: 7.35
 --- !u!1001 &636344000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3018,8 +3015,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 17.0359, y: 0.36045027, z: 0}
-    m_Extent: {x: 23.0895, y: 14.3981495, z: 0}
+    m_Center: {x: 17.0331, y: 0.36605024, z: 0}
+    m_Extent: {x: 23.097599, y: 14.398251, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
