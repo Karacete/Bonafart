@@ -63,7 +63,7 @@ public class CharacterScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Water") || collision.gameObject.CompareTag("FireBall"))
         {
             collision.collider.transform.SetParent(null);
-            script.ShowInterstitial();
+            script.ShowInterstitialAd();
         }
 
         if (collision.gameObject.CompareTag("Limit"))

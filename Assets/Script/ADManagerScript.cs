@@ -1,55 +1,53 @@
 using UnityEngine;
 using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
-using System;
+
 public class ADManagerScript : MonoBehaviour
 {
-    private InterstitialAd gecisReklami;
-    private GameObject loadScript;
+    private string _adUnitId = "ca-app-pub-4552243857039919/8339173339";
+    private LoadSceneManagerScript loadScript;
     void Start()
     {
-        MobileAds.Initialize(initStatus => { });
-        this.RequestInterstitial();
-        loadScript = GameObject.FindWithTag("Load");
+        MobileAds.Initialize((InitializationStatus initStatus) => { });
+        loadScript = GameObject.FindWithTag("Load").GetComponent<LoadSceneManagerScript>();
     }
-    public void RequestInterstitial()
+    private InterstitialAd _interstitialAd;
+    public void LoadInterstitialAd()
     {
-        string reklamID = "ca-app-pub-4552243857039919/8339173339";
-        if (gecisReklami != null)
+        if (_interstitialAd != null)
         {
-            gecisReklami.Destroy();
-            gecisReklami = null;
+            _interstitialAd.Destroy();
+            _interstitialAd = null;
         }
-        var request = new AdRequest();
-        InterstitialAd.Load(reklamID, request, (InterstitialAd ad, LoadAdError error) =>
-        {
-            if (error != null || ad == null)
-                return;
-            gecisReklami = ad;
-            RegisterEventHandlers(gecisReklami);
-        });
+        var adRequest = new AdRequest();
+        InterstitialAd.Load(_adUnitId, adRequest,
+            (InterstitialAd ad, LoadAdError error) =>
+            {
+                if (error != null || ad == null)
+                {
+                    return;
+                }
+                _interstitialAd = ad;
+            });
     }
-    public void ShowInterstitial()
+    public void ShowInterstitialAd()
     {
-        MobileAds.Initialize(initStatus => { });
-        this.RequestInterstitial();
-            gecisReklami.Show();
+        LoadInterstitialAd();
+        if (_interstitialAd != null && _interstitialAd.CanShowAd())
+        {
+            _interstitialAd.Show();
+            RegisterEventHandlers(_interstitialAd);
+        }
+        else
+        {
+            LoadInterstitialAd();
+        }
     }
-    private void RegisterEventHandlers(InterstitialAd ad)
+    private void RegisterEventHandlers(InterstitialAd interstitialAd)
     {
-        ad.OnAdPaid += (AdValue adValue) =>
+        interstitialAd.OnAdFullScreenContentClosed += () =>
         {
-            Debug.Log(String.Format("Interstitial ad paid {0} {1}.",
-                adValue.Value,
-                adValue.CurrencyCode));
-        };
-        ad.OnAdFullScreenContentClosed += () =>
-        {
-            loadScript.GetComponent<LoadSceneManagerScript>().Load(SceneManager.GetActiveScene().buildIndex);
-        };
-        ad.OnAdFullScreenContentFailed += (AdError error) =>
-        {
-            RequestInterstitial();
+            loadScript.Load(SceneManager.GetActiveScene().buildIndex);
         };
     }
 }
