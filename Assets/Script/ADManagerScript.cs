@@ -9,6 +9,7 @@ public class ADManagerScript : MonoBehaviour
     void Start()
     {
         MobileAds.Initialize((InitializationStatus initStatus) => { });
+        LoadInterstitialAd();
         loadScript = GameObject.FindWithTag("Load").GetComponent<LoadSceneManagerScript>();
     }
     private InterstitialAd _interstitialAd;
@@ -32,7 +33,6 @@ public class ADManagerScript : MonoBehaviour
     }
     public void ShowInterstitialAd()
     {
-        LoadInterstitialAd();
         if (_interstitialAd != null && _interstitialAd.CanShowAd())
         {
             _interstitialAd.Show();
@@ -40,7 +40,7 @@ public class ADManagerScript : MonoBehaviour
         }
         else
         {
-            LoadInterstitialAd();
+            loadScript.Load(SceneManager.GetActiveScene().buildIndex);
         }
     }
     private void RegisterEventHandlers(InterstitialAd interstitialAd)
